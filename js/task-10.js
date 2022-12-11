@@ -49,6 +49,13 @@ function destroyBoxes(event) {
   divBox.innerHTML = '';
   input.value = '';
 }
+
+const numberBox = 0;
+function onBtnCreate() {
+    createBoxes(numberBox);
+    numberBox = "";
+  }
+  
   
 function createBoxes(amount) {
   amount = input.value;
